@@ -883,3 +883,236 @@ a {
     transform: translate(-70px, -40px);
   }
 }
+@media (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .cabecalho {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .inicio {
+    min-height: auto;
+    padding: 60px 20px;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .inicio-texto {
+    max-width: 100%;
+  }
+
+  .inicio-texto h1 {
+    font-size: 42px;
+  }
+
+  .inicio-texto h2 {
+    font-size: 24px;
+  }
+
+  .frase {
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botoes {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .foto-container {
+    width: 280px;
+    height: 350px;
+  }
+
+  .sobre,
+  .formacao,
+  .experiencia,
+  .habilidades,
+  .projetos,
+  .atividades,
+  .formacao-complementar,
+  .contato {
+    padding: 60px 20px;
+  }
+
+  .sobre-titulo h2,
+  .formacao-titulo h2,
+  .experiencia-titulo h2,
+  .habilidades-titulo h2,
+  .projetos-titulo h2,
+  .atividades-titulo h2,
+  .formacao-complementar-titulo h2,
+  .contato-titulo h2 {
+    font-size: 34px;
+  }
+
+  .sobre-conteudo {
+    padding: 25px;
+  }
+
+  .sobre-destaques {
+    flex-direction: column;
+  }
+
+  .formacao-conteudo {
+    padding: 25px;
+  }
+
+  .experiencia {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .experiencia-titulo,
+  .experiencia-conteudo {
+    width: 100%;
+  }
+
+  .habilidades-cards,
+  .projetos-cards,
+  .formacoes-complementares,
+  .contato-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .atividade {
+    gap: 20px;
+  }
+
+  .atividade-informacoes {
+    min-width: 0;
+  }
+
+  .contato-card {
+    min-width: 0;
+  }
+
+  .contato-card div {
+    min-width: 0;
+  }
+
+  .contato-card p {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 500px) {
+  .cabecalho {
+    padding: 18px 15px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .menu {
+    gap: 10px 12px;
+  }
+
+  .menu a {
+    font-size: 13px;
+  }
+
+  .inicio {
+    padding: 45px 18px 55px;
+  }
+
+  .inicio-texto h1 {
+    font-size: 36px;
+  }
+
+  .inicio-texto h2 {
+    font-size: 21px;
+  }
+
+  .cursor-terminal {
+    width: 10px;
+    height: 25px;
+  }
+
+  .botoes {
+    flex-direction: column;
+  }
+
+  .botao-principal,
+  .botao-secundario {
+    width: 100%;
+    text-align: center;
+  }
+
+  .foto-container {
+    width: 250px;
+    height: 310px;
+  }
+
+  .sobre,
+  .formacao,
+  .experiencia,
+  .habilidades,
+  .projetos,
+  .atividades,
+  .formacao-complementar,
+  .contato {
+    padding: 50px 18px;
+  }
+
+  .sobre-titulo h2,
+  .formacao-titulo h2,
+  .experiencia-titulo h2,
+  .habilidades-titulo h2,
+  .projetos-titulo h2,
+  .atividades-titulo h2,
+  .formacao-complementar-titulo h2,
+  .contato-titulo h2 {
+    font-size: 30px;
+  }
+
+  .sobre-conteudo,
+  .formacao-conteudo,
+  .habilidade-card,
+  .projeto-conteudo,
+  .formacao-extra,
+  .contato-card {
+    padding: 20px;
+  }
+
+  .formacao-informacoes h3,
+  .experiencia-conteudo h3 {
+    font-size: 23px;
+  }
+
+  .projeto-imagem {
+    height: 200px;
+  }
+
+  .projeto-links {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .atividade {
+    gap: 15px;
+  }
+
+  .atividade-linha {
+    min-width: 3px;
+  }
+}

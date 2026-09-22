@@ -311,7 +311,6 @@
 .botao-reiniciar:hover {
   transform: translateY(-2px);
 }
-
 @media (max-width: 850px) {
   .pagina-forca {
     padding: 70px 15px 25px;
@@ -331,6 +330,11 @@
 }
 
 @media (max-width: 600px) {
+  .pagina-forca {
+    padding: 70px 12px 25px;
+    overflow-x: hidden;
+  }
+
   .voltar {
     top: 15px;
     left: 15px;
@@ -338,9 +342,19 @@
     font-size: 14px;
   }
 
+  .jogo-forca h1 {
+    font-size: 30px;
+  }
+
+  .lado-forca,
+  .lado-palavra {
+    padding: 20px 15px;
+  }
+
   .palavra {
-    font-size: 24px;
-    letter-spacing: 3px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    overflow-wrap: anywhere;
   }
 
   .letras-usadas {
@@ -348,12 +362,17 @@
   }
 
   .teclado {
-    gap: 6px;
+    gap: 5px;
+    max-width: 100%;
   }
 
   .teclado button {
-    width: 38px;
-    height: 38px;
-    font-size: 15px;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .desenho-forca {
+    transform: scale(0.9);
   }
 }
