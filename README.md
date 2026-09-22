@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Portfólio — Marcela Cantalice
 
-## Getting Started
+Portfólio acadêmico e profissional desenvolvido para apresentar minha trajetória na área de tecnologia.
 
-First, run the development server:
+## 🌐 Acesse o portfólio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 https://portfolio-peach-eta-31.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👩‍💻 Sobre o projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Este projeto foi desenvolvido como atividade da disciplina de Programação Web e Mobile.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O portfólio reúne informações sobre minha formação acadêmica, habilidades, projetos desenvolvidos, atividades extracurriculares, formação complementar e formas de contato.
 
-## Learn More
+O projeto também possui uma página dedicada ao Jogo da Forca, desenvolvido utilizando React e Next.js.
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Objetivos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Apresentar minha formação acadêmica
+- Reunir meus principais projetos
+- Apresentar habilidades e tecnologias
+- Mostrar atividades extracurriculares e formação complementar
+- Disponibilizar formas de contato
+- Aplicar conceitos de React e Next.js
+- Criar uma aplicação responsiva
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tecnologias utilizadas
 
-## Deploy on Vercel
+### Desenvolvimento
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- HTML
+- CSS
+- JavaScript
+- React
+- Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Ferramentas
+
+- Git
+- GitHub
+- Vercel
+- React Icons
+- npm
+
+## ✨ Funcionalidades
+
+### 📄 Portfólio
+
+A página principal apresenta:
+
+- Apresentação pessoal
+- Formação acadêmica
+- Experiência profissional
+- Habilidades
+- Galeria de projetos
+- Atividades extracurriculares
+- Formação complementar
+- Informações de contato
+- Navegação entre as seções
+- Layout responsivo
+
+### 🎮 Jogo da Forca
+
+O projeto possui uma página dedicada ao Jogo da Forca.
+
+O jogo possui:
+
+- Categoria de animais
+- 30 palavras
+- Sorteio aleatório de palavras
+- Teclado virtual
+- Controle de tentativas
+- Identificação de letras corretas e incorretas
+- Exibição das letras já utilizadas
+- Desenho da forca de acordo com os erros
+- Mensagens de vitória e derrota
+- Opção de reiniciar com uma nova palavra
+
+## 📂 Estrutura principal
+
+- `app/page.js` — página principal do portfólio
+- `app/globals.css` — estilização do portfólio
+- `app/forca/page.js` — página e lógica do Jogo da Forca
+- `app/forca/forca.css` — estilização do Jogo da Forca
+- `public/` — imagens utilizadas no projeto
+
+## 🚀 Deploy
+
+O projeto está publicado na Vercel:
+
+🔗 https://portfolio-peach-eta-31.vercel.app/
+
+## 👩‍🎓 Autora
+
+**Marcela Cantalice**
+
+Estudante de Ciência da Computação — UNICAP
